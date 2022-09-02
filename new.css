@@ -1,0 +1,75 @@
+.container{
+    
+    border: 10px solid blue;
+    min-height: 100vh;
+    background-color: darkgray;
+    justify-content: space-around;
+    
+
+
+}
+.head{
+    margin-right: 4px;
+}
+
+.box1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    min-height: auto;
+    margin: 6px;
+    padding: 20px;
+
+}
+
+.plan-card{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.font{
+    font-size: 20px;
+    font-style: inherit;
+}
+.font1{
+    font-size: 40px;
+    font-style: inherit;
+    text-align: center;
+}
+.price{
+    font-size: 35px;
+}
+.button{
+    background-color: blue;
+    align-items: center;
+    border-top-left-radius: 10px;
+    height: 38px;
+    width: 80%;
+}
+
+.para{
+    font-style: normal;
+}
+.line{
+    width: 90%;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    margin-right: 4px;
+    width: 50px;
+    height: 30px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
