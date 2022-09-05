@@ -1,0 +1,65 @@
+
+
+
+li {
+    display: inline;
+    
+  }
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    
+
+}  
+
+.background{
+    
+    background: url('./images/bg-intro-desktop.svg');
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.div1 {
+    text-align: center;
+    
+}
+ 
+
+.div2{
+    text-align: center;
+    background-color: azure;
+}
+.div3{
+    text-align: center;
+   
+}
+.div4{
+    text-align: center;
+}
+
+.container1{
+    background-color: darkslategray;
+    text-align: center;
+    padding: 20px;
+}
+
+.button{
+  background-image: linear-gradient(to right,lightgreen,skyblue);
+ border-radius: 25px;
+  height: 45px;
+  width: 175px;
+  border: 0px;
+
+}
+
+.color{
+    color:white;
+}
+.color1{
+    color: gray;
+}
+.button:hover{
+    filter: brightness(120%);
+}
